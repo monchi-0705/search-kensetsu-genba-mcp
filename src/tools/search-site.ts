@@ -21,6 +21,7 @@ export async function searchConstructionSite(
 6. **用途・規模**: 建物の用途、階数（地上・地下）、高さ、延床面積など
 7. **工期**: 着工日〜竣工予定日
 8. **その他特記事項**: 特徴的な工法、環境配慮、受賞歴など
+9. **出典となるWebサイト: **
 
 回答は以下のJSON形式で返してください（JSON以外のテキストは含めないでください）：
 {
@@ -34,6 +35,7 @@ export async function searchConstructionSite(
   "usage": "用途（オフィス、商業施設、住宅など）",
   "scale": "規模（階数、高さ、延床面積など）",
   "constructionPeriod": "着工〜竣工予定",
+  "sources": "出典となるWebサイト",
   "notes": "その他特記事項"
 }`;
 
